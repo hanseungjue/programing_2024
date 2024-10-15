@@ -23,13 +23,12 @@ int get_max(int x, int y){
 int main(int argc, char *argv[]) {
 	int a, b;
 	int res_sum,res_square,res_get_max;
-    
-    printf("Enter the integers: ");
-    scanf("%i %i",&a,&b);
+	printf("Enter the integers: ");
+	scanf("%i %i",&a,&b);
 	res_sum=sumTwo(a,b);
-    res_square=square(a);
-    res_get_max=get_max(a,b);
-    printf("Result - Sum: %i, Square: %i, Max: %i",res_sum,res_square,res_get_max);
+	res_square=square(a);
+	res_get_max=get_max(a,b);
+	printf("Result - Sum: %i, Square: %i, Max: %i",res_sum,res_square,res_get_max);    
 
 	return 0;
 }
