@@ -31,7 +31,7 @@ int main(void) {
 	int n,r,x;
 	n=get_integer();
 	r=get_integer();
-    x=combination(n,r);
-    printf("The result of C(%i, %i) is %i.",n,r,x);
+	x=combination(n,r);
+	printf("The result of C(%i, %i) is %i.",n,r,x);
 	return 0;
 }
