@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-int all_files;
+int all_files;//when static in code, code is not working 
 extern void sub();
 int main(int argc, char *argv[]) {
 	sub();
