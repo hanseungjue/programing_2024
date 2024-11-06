@@ -13,8 +13,7 @@ int main(int argc, char *argv[]) {
 	{ 
 		if (a[i] != b[i]) 
 		{ 
-			printf("(a[%d] = %d, b[%d] = %d)\n",i,a[i],i,b[i]); 
-			flag_same = 0; 
+			printf("a[%d] = %d, b[%d] = %d\n",i,a[i],i,b[i]); 
 		}
 	}
 
